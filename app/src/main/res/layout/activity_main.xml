@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/inputFontColor"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/input_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:hint="@string/input_placeholder_1"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/inputFontColor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/input_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/input_placeholder_2"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/inputFontColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/btn_plus"
+                    style="@style/button"
+                    android:layout_marginRight="10sp"
+                    android:text="@string/operator_1" />
+
+                <TextView
+                    android:id="@+id/btn_minus"
+                    style="@style/button"
+                    android:layout_marginLeft="10sp"
+                    android:text="@string/operator_2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/btn_multiply"
+                    style="@style/button"
+                    android:layout_marginRight="10sp"
+                    android:text="@string/operator_3" />
+
+                <TextView
+                    android:id="@+id/btn_devide"
+                    style="@style/button"
+                    android:layout_marginLeft="10sp"
+                    android:text="@string/operator_4" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

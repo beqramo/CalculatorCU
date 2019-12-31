@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project_calculator</string>
+    <string name="title">simple calculator</string>
+    <string name="input_placeholder_1">Number 1</string>
+    <string name="input_placeholder_2">Number 2</string>
+    <string name="operator_1">+</string>
+    <string name="operator_2">-</string>
+    <string name="operator_3">*</string>
+    <string name="operator_4">/</string>
+
+</resources>
